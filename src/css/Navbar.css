@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Monoton&family=Mooli&family=Mystery+Quest&family=Open+Sans:wght@300;400;700&family=Patrick+Hand&family=Roboto:ital,wght@0,100;0,500;1,100;1,900&family=Rubik+Dirt&display=swap');
+
+.navbar {
+    color: white;
+    font-weight: bold;
+    background: #7F00FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #E100FF, #7F00FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #E100FF, #7F00FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 15vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 8px 0;
+    color: white;
+}
+
+.logo {
+    width: 40%;
+    height: 10%;
+    border-radius: 50%;
+}

@@ -1,0 +1,19 @@
+.suma-precios {
+    width: 25%;
+    position: absolute;
+    left: -300px;
+    top: 200px;
+}
+
+.suma-precios h3 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.suma-precios p {
+    text-align: center;
+    color: green;
+    font-size: 22px;
+    font-weight: bold;
+}

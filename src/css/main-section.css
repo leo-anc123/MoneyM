@@ -1,0 +1,78 @@
+
+.menu-principal {
+display: block;
+}
+
+.caja-bienvenida {
+    position: relative;
+    margin: 5px auto;
+    width: 50vw;
+    height: 30vh;
+    top: 80px;
+}
+
+.caja-bienvenida h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.caja-bienvenida p {
+    font-weight: 700;
+    color: aliceblue;
+}
+.carousel {
+    position: relative;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 14px;
+    width: 40vw;
+    height: 40vh;
+    margin: 15px auto;
+    top: 70px;
+    background-color: rgba(111, 119, 128, 0.589);
+}
+
+.carousel img {
+        height: 106%;
+        width: 10%;
+        border-radius: 50%;
+        border: 3px solid white;
+        box-shadow: inset -1px -1px 0 #fff, inset;
+        animation: spin 2s linear infinite;
+        position: relative;
+        top: 3px;
+}
+
+
+.item {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left: 140px;
+
+}
+
+.item h4 {
+    position: relative;
+    top: 122px;
+    width: 200%;
+    right: 90px;
+    font-weight: bold;
+}
+.item button {
+    position: relative;
+    top: 120px;
+    width: 100%;
+    left: 10px;
+    border-radius: 20px;
+    background: rgb(218,142,175);
+    background: radial-gradient(circle, rgba(218,142,175,1) 0%, rgba(85,118,182,1) 100%);
+    font-weight: bold;
+}
+
+.item button:hover {
+    background: rgb(81, 46, 99);
+    cursor: pointer;
+    color: #fff;
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Monoton&family=Mooli&family=Mystery+Quest&family=Open+Sans:wght@300;400;700&family=Patrick+Hand&family=Roboto:ital,wght@0,100;0,500;1,100;1,900&family=Rubik+Dirt&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100%;
+  background: url(/public/imagenes/nuevo.jpg) no-repeat;
+  background-size: cover; 
+}

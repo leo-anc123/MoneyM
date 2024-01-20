@@ -1,0 +1,30 @@
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 60px;
+    position: relative;
+}
+
+.col-form {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  .col-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    width: 18%;
+    height: 40px;
+    border-radius: 12px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .col-button:hover {
+    background-color: #45a049;
+    
+  }

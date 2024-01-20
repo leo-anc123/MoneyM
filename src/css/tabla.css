@@ -1,0 +1,63 @@
+.titulo-tg {
+    font-size: 24px;
+    color: white;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    left: -12px;
+}
+
+.contenedor-principal {
+    width: 70%;
+    min-height: 100px;
+    position: relative;
+    left: 350px;
+    top: 110px;
+    position: absolute;
+
+}
+
+.tabla {
+    position: relative;
+    top: -9px;
+}
+.img {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+
+.th-numero {
+    width: 4%;
+}
+
+.titulo-page {
+    width: 24%;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+.boton-mes {
+    /* border: 3px solid black; */
+    width: 15%;
+    position: relative;
+    left: 350px;
+    bottom: 14px;
+}
+
+.boton-año {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px; /* Ajusta según sea necesario */
+    position: relative;
+    left: 350px;
+    top: -10px;
+  }
+
+
