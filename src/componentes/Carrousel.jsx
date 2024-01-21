@@ -3,7 +3,7 @@
 // import 'slick-carousel/slick/slick-theme.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Carousel } from 'react-bootstrap';
+import {  Carousel } from 'react-bootstrap';
 import '../css/main-section.css'
 
 

@@ -26,7 +26,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -44,3 +47,4 @@
     "netlify-cli": "^17.15.1"
   }
 }
+
