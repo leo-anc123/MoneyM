@@ -17,7 +17,7 @@ function NavBarMenu() {
           <Nav className="me-auto">
             <Nav.Link  as={Link} to='/Gastos-personales' className='navigation'>Gastos personales</Nav.Link>
             <Nav.Link  as={Link} to='/Gastos-esenciales' className='navigation'>Gastos esenciales</Nav.Link>
-            <Nav.Link  as={Link} to='/Deudas' className='navigation'>Deudas</Nav.Link>
+            <Nav.Link  as={Link} to='/cuentas y obligaciones' className='navigation'>Cuentas y obligaciones</Nav.Link>
             <Nav.Link  as={Link} to='/Inversiones' className='navigation'>Inversiones</Nav.Link>
           </Nav>
         </Container>

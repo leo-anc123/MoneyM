@@ -32,7 +32,7 @@ function App() {
             path="/gastos-esenciales"
             element={<GastosEsenciales titulo="Gastos Esenciales" imagen={imagenGastosEsenciales} />}
           />
-          <Route path="/deudas" element={<Deudas titulo="Deudas" imagen={imagenDeudas} />} />
+          <Route path="/cuentas y obligaciones" element={<Deudas titulo="cuentas y obligaciones" imagen={imagenDeudas} />} />
           <Route path="/inversiones" element={<Inversiones titulo="Inversiones" imagen={imagenInversiones} />} />
          
         </Routes>
