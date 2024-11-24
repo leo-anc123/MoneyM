@@ -37,6 +37,8 @@ function BotonAño({ elAñoSeleccion, onSelectYear, onSelectMonth }) {
             <Dropdown.Item onClick={() => handleAñoSeleccion(2022)}>2022</Dropdown.Item>
             <Dropdown.Item onClick={() => handleAñoSeleccion(2023)}>2023</Dropdown.Item>
             <Dropdown.Item onClick={() => handleAñoSeleccion(2024)}>2024</Dropdown.Item>
+            <Dropdown.Item onClick={() => handleAñoSeleccion(2025)}>2025</Dropdown.Item>
+            <Dropdown.Item onClick={() => handleAñoSeleccion(2026)}>2026</Dropdown.Item>
             <Dropdown.Divider />
             <Dropdown.Item onClick={handleAñoPersonalizado}>Año Personalizado</Dropdown.Item>
           </Dropdown.Menu>
